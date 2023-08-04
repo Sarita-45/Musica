@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Reproductor</title>
+</head>
+
+<body>
+  <div class="player">
+    <div class="player__header">
+      <div class="player_img player_img--absolute slider">
+        <button class="player_button player_button--absolute--nw playlist">
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon" />
+        </button>
+        <button class="player_button player_button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon" />
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon" />
+        </button>
+        <div class="slider__content">
+          <img class="img slider__img" src="" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/porno.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/bajo el agua.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/busca un confidente.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/classy 101.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/como yotas.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/deseandote.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/el diablo.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/el malo.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/ella y yo.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/escapate conmigo remix.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/fuego.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/gata oficial.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/lala.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/llegara.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/mojando asientos.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/niña bonita.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/otra vez.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/persona ideal.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/que onda perdida.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/quizas.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/solos.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/stop.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/suavemente.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/tararea.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/te encontre.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/te va a doler.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/tu con el.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/tu sonrisa.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/volando remix.jpg" alt="cover" />
+          <img class="img slider__img" src="canciones/imagenes/yo no se bailar.jpg" alt="cover" />
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon" />
+        </button>
+        <p class="player_context slider_context">
+          <strong class="slider__name"></strong>
+          <span class="player_title slider_title"></span>
+        </p>
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon" />
+        </button>
+        <div class="progres">
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="player__playlist list">
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/groupie.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">La Groupie</b>
+          <span class="flex">
+            <span class="player__title">De la Guetto</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - La Groupie De La Ghetto Ft Nejo Luigi 21 Plus Nicky Jam y Nengo Flow Prod By DJ BLASS y Wassie_360p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/porno.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Porno</b>
+          <span class="flex">
+            <span class="player__title">Rich Music LTD, Sech, Dalex ft. Justin Quiles, Lenny Tavárez</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Porno  Rich Music LTD Sech Dalex ft Justin Quiles Lenny Tavárez Feid_v720P (1).mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/bajo el agua.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Bajo el Agua</b>
+          <span class="flex">
+            <span class="player__title">Manuel Medrano</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Manuel Medrano  Bajo El Agua Video Oficial_v720P (1).mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/busca un confidente.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Busca Un Confidente</b>
+          <span class="flex">
+            <span class="player__title">Los Diablitos</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Busca Un Confidente Los Diablitos Video Letra  Sentir Vallenato_720p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/classy 101.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Classy 101</b>
+          <span class="flex">
+            <span class="player__title">Feid - Young Miko</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Feid Young Miko  Classy 101_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/como yotas.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Como Yotas</b>
+          <span class="flex">
+            <span class="player__title">Penyair</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Como Yotas  Penyair x Pitbullying Clothing  Letra_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/deseandote.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">
+            <span class="uppercase">Frankie Ruiz</span></b>
+          <span class="flex">
+            <span class="player__title">Deseandote</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Frankie Ruiz  Deseandote_360p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/el diablo.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">El Diablo</b>
+          <span class="flex">
+            <span class="player__title">Penyair</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - El Diablo  Penyair x Dj Gpromode Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/el malo.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">El Malo</b>
+          <span class="flex">
+            <span class="player__title">Nico Hernández</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Nico Hernández  El Malo  Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/ella y yo.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Ella Y Yo</b>
+          <span class="flex">
+            <span class="player__title">Aventura</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Ella Y Yo  Don Omar Ft Romeo  letra_360p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/escapate conmigo remix.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Escápate Conmigo Remix</b>
+          <span class="flex">
+            <span class="player__title">Wolfine ft Ñejo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Escápate Conmigo Remix Wolfine Ft Ñejo  Audio_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/fuego.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Fuego </b>
+          <span class="flex">
+            <span class="player__title">Crack Family</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"   src="canciones/y2mate.com - CRACK FAMILY  FUEGO VÍDEO OFICIAL_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/gata oficial.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Gata Oficial</b>
+          <span class="flex">
+            <span class="player__title">Arcángel</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - 10  Gata Oficial  Luigi 21 Plus Ft Arcangel  El Boki Sucio_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/lala.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Lala</b>
+          <span class="flex">
+            <span class="player__title">Myke Towers</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Myke Towers  Lala Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/llegara.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Llegará</b>
+          <span class="flex">
+            <span class="player__title">Myke Towers</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Myke Towers  Llegará  Video Oficial _v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/mojando asientos.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Mojando Asientos</b>
+          <span class="flex">
+            <span class="player__title">Maluma ft Feid</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Maluma  Mojando Asientos Official Video ft Feid_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/niña bonita.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Niña Bonita</b>
+          <span class="flex">
+            <span class="player__title">Feid - Sean Paul</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Feid Sean Paul  Niña Bonita Official Video_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/otra vez.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Otra Vez</b>
+          <span class="flex">
+            <span class="player__title">Zion Lennox</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Zion  Lennox ft J Balvin  Otra Vez Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/persona ideal.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Persona Ideal</b>
+          <span class="flex">
+            <span class="player__title">Adolescent´s Orquesta</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Persona Ideal_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/que onda perdida.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Que Onda Perdida?</b>
+          <span class="flex">
+            <span class="player__title">Gerardo Coronel - Grupo Firme</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Grupo Firme  Gerardo Coronel El Jerry  Qué Onda Perdida Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/quizas.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Quizas</b>
+          <span class="flex">
+            <span class="player__title">Afaz Natural</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Afaz Natural  Quizás LETRA  Video Lyric_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/solos.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Solos</b>
+          <span class="flex">
+            <span class="player__title">Tony Dize ft Plan B</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Tony Dize  Solos ft Plan B_360p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/stop.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Stop</b>
+          <span class="flex">
+            <span class="player__title">Apache - Canserbero</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Apache  Canserbero  Stop Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/suavemente.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Suavemente</b>
+          <span class="flex">
+            <span class="player__title">Elvis Crespo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Elvis Crespo  Suavemente Cover Audio_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/tararea.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Tararea</b>
+          <span class="flex">
+            <span class="player__title">AlcoliyikoZ</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - AlcolirykoZ  Tararea video oficial Prod El Arkeólogo_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/te encontre.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Te Encontré</b>
+          <span class="flex">
+            <span class="player__title">El Vega</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - El Vega  Te Encontre Oficial Video_720p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/te va a doler.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Te Va A Doler</b>
+          <span class="flex">
+            <span class="player__title">Maelo Ruiz</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Te Va A Doler Maelo Ruiz  Audio_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/tu sonrisa.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Tu Sonrisa</b>
+          <span class="flex">
+            <span class="player__title">Elvis Crespo</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Elvis Crespo  Tu Sonrisa_360p.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/volando remix.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Volando Remix</b>
+          <span class="flex">
+            <span class="player__title">Mora x Bad bunny x Sech</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Mora x Bad Bunny x Sech  Volando Remix Video Oficial_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/yo no se bailar.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Yo no se bailar</b>
+          <span class="flex">
+            <span class="player__title">Cosculluela</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - Yo No Sé Bailar_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/palabras sobran.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Palabras Sobran</b>
+          <span class="flex">
+            <span class="player__title">Blessd</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio"
+          src="canciones/y2mate.com - BLESSD  Palabras Sobran LETRA_v720P.mp4"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="canciones/imagenes/entregame tu amor.jpg" alt="cover" />
+        <p class="player__context">
+          <b class="player__song-name">Entregame Tu Amor</b>
+          <span class="flex">
+            <span class="player__title">Los Inquietos</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="canciones/y2mate.com - Entrégame Tu Amor Los Inquietos  Video Oficial_360p.mp4"></audio>
+      </li>
+    </ul>
+  </div>
+  <script src="/player.js"></script>
+</body>
+
+</html>
